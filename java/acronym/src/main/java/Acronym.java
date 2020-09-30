@@ -1,11 +1,12 @@
 class Acronym {
+    private String phrase;
 
     Acronym(String phrase) {
-        throw new UnsupportedOperationException("Delete this statement and write your own implementation.");
+        this.phrase = phrase;
     }
 
     String get() {
-        throw new UnsupportedOperationException("Delete this statement and write your own implementation.");
+        
     }
 
 }
