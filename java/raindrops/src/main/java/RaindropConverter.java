@@ -11,10 +11,11 @@ class RaindropConverter {
         if (number % 7 == 0) {
             output += "Plong";
         }
-        else {
-            output = String.valueOf(number);
+        if (output == "") {
+            return String.valueOf(number);
+        } else {
+            return output;
         }
-        return output;
     }
 
 }

@@ -28,7 +28,7 @@ public class ReverseStringTest {
     public void testAPalindrome() {
         assertEquals("racecar", new ReverseString().reverse("racecar"));
     }
-  
+
     @Test
     public void testAnEvenSizedWord() {
         assertEquals("reward", new ReverseString().reverse("drawer"));

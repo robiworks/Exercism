@@ -6,5 +6,5 @@ class ReverseString {
         String output = new StringBuilder(inputString).reverse().toString();
         return output;
     }
-  
+
 }
